@@ -2,6 +2,7 @@
 
 import socket
 
+print("Welcome to simple port scanner!")
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 host = input("Enter the IP address: ")
 port = int(input("Enter the port: "))
